@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d856e7d-d1de-4a0f-9938-56d519480aaa" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\workspace\apache-maven-3.6.3\m3" />
+        <option name="userSettingsFile" value="G:\workspace\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2CnVsTdE693zfTLJdthkFfRTlAU" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zhouhao/entity" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15163529" />
+    <property name="project.structure.side.proportion" value="0.19886364" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IDEAspace3\reggie_take_out\src\main\java\com\zhouhao\entity" />
+      <recent name="G:\IDEAspace3\reggie_take_out\src\main\java\com\zhouhao\dto" />
+      <recent name="G:\IDEAspace3\reggie_take_out\target\classes\static\backend\upload" />
+      <recent name="G:\IDEAspace3\reggie_take_out\src\main\java\com\zhouhao\utils" />
+      <recent name="G:\IDEAspace3\reggie_take_out\src\main\resources\static\backend\page\demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reggie_take_out" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhouhao.MainApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d856e7d-d1de-4a0f-9938-56d519480aaa" name="Default Changelist" comment="" />
+      <created>1659438542521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659438542521</updated>
+      <workItem from="1659438543927" duration="6748000" />
+      <workItem from="1659455597039" duration="5000" />
+      <workItem from="1659492248257" duration="2506000" />
+      <workItem from="1659495108305" duration="18522000" />
+      <workItem from="1659609023360" duration="14326000" />
+      <workItem from="1659630958768" duration="139000" />
+      <workItem from="1659666668858" duration="24895000" />
+      <workItem from="1659752618160" duration="20691000" />
+      <workItem from="1659876829221" duration="645000" />
+      <workItem from="1659878626816" duration="43000" />
+      <workItem from="1660009946764" duration="12000" />
+      <workItem from="1660010306975" duration="149000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
