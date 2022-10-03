@@ -38,7 +38,7 @@ public class LoginFilter implements Filter {
         }
 
         if(employee == null && user == null){
-            System.out.println("进来了");
+//            System.out.println("进来了");
 //            response.sendRedirect("/backend/page/login/login.html");  ajax不能重定向
             response.getWriter().print(JSON.toJSONString(R.error("NOTLOGIN")));
             return;
