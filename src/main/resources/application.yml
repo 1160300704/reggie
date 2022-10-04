@@ -19,6 +19,9 @@ spring:
         max-wait: 10000
         max-idle: 8
         min-idle: 0
+  cache:
+    redis:
+      time-to-live: 10000
 
 mybatis-plus:
   configuration:
@@ -29,6 +32,5 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: ASSIGN_ID
-
 
 parentPath: static\backend\upload\
