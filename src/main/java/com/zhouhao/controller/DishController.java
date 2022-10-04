@@ -13,6 +13,7 @@ import com.zhouhao.service.DishFlavorService;
 import com.zhouhao.service.DishService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +28,8 @@ public class DishController {
     private DishFlavorService dishFlavorService;
     @Autowired
     private CategoryService categoryService;
+    @Autowired
+    RedisTemplate redisTemplate;
 
     @GetMapping("page")
     public R list(int page, int pageSize, String name){
@@ -65,6 +68,7 @@ public class DishController {
         }
         dishFlavorService.saveBatch(flavors);
 
+        redisTemplate.delete(dishDto.getCategoryId().toString());
         return R.success("成功");
     }
 
@@ -99,11 +103,17 @@ public class DishController {
         }
         dishFlavorService.saveBatch(flavors);
 
+        redisTemplate.delete(dishDto.getCategoryId().toString());
         return R.success("睡觉");
     }
 
     @GetMapping("list")
     public R DishList(Long categoryId){
+        Object o = redisTemplate.opsForValue().get(categoryId.toString());
+        if(o != null){
+            return R.success(o);
+        }
+
         LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(Dish::getCategoryId, categoryId);
         List<Dish> list = dishService.list(queryWrapper);
@@ -118,6 +128,7 @@ public class DishController {
 
             return dishDto;
         }).collect(Collectors.toList());
+        redisTemplate.opsForValue().set(categoryId.toString(), dtoList);
 
         return R.success(dtoList);
     }
