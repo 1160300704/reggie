@@ -18,7 +18,7 @@ public class SetmealController {
 
     @CachePut(value = "setmeal", key = "#setmealDto.categoryId")
     @PostMapping
-    public R save(@RequestBody SetmealDto setmealDto){
+    public Object save(@RequestBody SetmealDto setmealDto){
         return setmealService.saveWithDish(setmealDto);
     }
 
@@ -35,7 +35,7 @@ public class SetmealController {
 
     @GetMapping("list")
     @Cacheable(value = "setmeal", key = "#setmeal.categoryId")
-    public R list(Setmeal setmeal){
+    public Object list(Setmeal setmeal){
         return setmealService.list(setmeal);
     }
 }

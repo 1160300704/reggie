@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3d856e7d-d1de-4a0f-9938-56d519480aaa" name="Default Changelist" comment="master">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouhao/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouhao/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouhao/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouhao/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/common/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/common/R.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/controller/SetmealController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/entity/Setmeal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/entity/Setmeal.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +116,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test (1)" />
+        <item itemvalue="JUnit.test (1)" />
+        <item itemvalue="JUnit.test (1)" />
+        <item itemvalue="JUnit.test (1)" />
         <item itemvalue="JUnit.test (1)" />
       </list>
     </recent_temporary>
