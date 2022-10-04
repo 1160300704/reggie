@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d856e7d-d1de-4a0f-9938-56d519480aaa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouhao/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouhao/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouhao/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouhao/common/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouhao/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouhao/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouhao/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouhao/controller/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouhao/entity/Setmeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouhao/entity/Setmeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhouhao/service/impl/SetmealServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhouhao/service/impl/SetmealServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/config/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/controller/DishController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/controller/SetmealController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zhouhao/service/impl/SetmealServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zhouhao/service/impl/SetmealServiceImpl.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="v1.0" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -160,8 +146,7 @@
       <workItem from="1664757389940" duration="613000" />
       <workItem from="1664760695092" duration="11519000" />
       <workItem from="1664803806928" duration="5628000" />
-      <workItem from="1664847133907" duration="2421000" />
-      <workItem from="1664870000644" duration="6519000" />
+      <workItem from="1664847133907" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1663245494717</created>
@@ -184,14 +169,7 @@
       <option name="project" value="LOCAL" />
       <updated>1664776373637</updated>
     </task>
-    <task id="LOCAL-00004" summary="master">
-      <created>1664847185157</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1664847185157</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +191,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;test&quot;&#10;&#10;This reverts commit 51f46388" />
     <MESSAGE value="test" />
-    <MESSAGE value="master" />
-    <option name="LAST_COMMIT_MESSAGE" value="master" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
