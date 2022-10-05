@@ -2,14 +2,19 @@ package com.zhouhao.config;
 
 import com.zhouhao.filter.LoginFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+import javax.servlet.ServletContext;
 
 @Configuration
 public class SpringWebMVCConfig implements WebMvcConfigurer {
     @Bean
-    public FilterRegistrationBean filterRegistrationBean(){
+    public FilterRegistrationBean filterRegistrationBean(ApplicationContext applicationContext, ServletContext servletContext){
         //创建一个注册过滤器对象
         FilterRegistrationBean registrationBean = new FilterRegistrationBean();
         //设置自定义过滤器

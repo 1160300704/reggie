@@ -18,7 +18,12 @@ public class LoginFilter implements Filter {
             "/employee/logout",
             "/front/**",
             "/user/login",
-            "/user/sendMsg"};
+            "/user/sendMsg",
+            "/doc.html",
+            "/webjars/**",
+            "/swagger-resources",
+            "/v2/api-docs",
+            "/swagger-ui.html"};
     private static final AntPathMatcher PATH_MATCHER = new AntPathMatcher();
 
     @Override
